@@ -1,0 +1,107 @@
+/*.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+    margin: 0 auto;
+}*/
+.login-modal .form-group {
+  margin-bottom: 7px; }
+.login-modal .header-card {
+  font-size: 24px;
+  color: #172b4d;
+  letter-spacing: .43px;
+  text-align: center;
+  margin-bottom: 19px; }
+.login-modal .nav-fill .nav-item {
+  flex: 1 1 auto;
+  text-align: center; }
+.login-modal .nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: #ededed;
+  border-radius: 3px;
+  cursor: pointer; }
+  .login-modal .nav a.nav-link {
+    display: block;
+    font-size: 14px;
+    color: #677897;
+    letter-spacing: .5px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer; }
+    .login-modal .nav a.nav-link:hover {
+      border-radius: 4px;
+      border: none; }
+    .login-modal .nav a.nav-link.active {
+      background: #fff;
+      border-radius: 3px;
+      color: #172b4d; }
+.login-modal .tab-content {
+  padding: 20px 0px; }
+  .login-modal .tab-content input {
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #d8dce5;
+    box-sizing: border-box;
+    color: #5a5e66;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 1;
+    outline: 0;
+    padding: 0 15px;
+    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%; }
+  .login-modal .tab-content .btn--orange {
+    background: #f58323;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: .43px;
+    text-align: center; }
+.login-modal .label-or {
+  font-size: 12px;
+  color: #172b4d;
+  letter-spacing: .43px;
+  text-align: center; }
+.login-modal .btn {
+  padding: 10px;
+  position: relative; }
+  .login-modal .btn .fa {
+    font-size: 16px; }
+  .login-modal .btn.icon-left .fa {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 0px;
+    border: none; }
+.login-modal .btn--facebook {
+  background: #4267b2;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .43px;
+  text-align: center; }
+.login-modal .btn--microsoft{
+    background: #172b4d;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: .43px;
+    text-align: center;}
+.login-modal .btn--google {
+  background: #4285f4;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .43px;
+  text-align: center; }
+.login-modal .forgot-password a {
+  color: #808080;
+  font-size: 13px; }

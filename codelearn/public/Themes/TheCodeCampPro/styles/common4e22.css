@@ -1,0 +1,405 @@
+﻿/*NEW CSS*/
+.el-loading-parent--relative {
+    position: relative !important;
+}
+
+.el-loading-parent--hidden {
+    overflow: hidden !important;
+}
+
+.el-loading-mask {
+    position: absolute;
+    z-index: 1010;
+    background-color: rgba(255,255,255,0.3);
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.el-loading-full-screen {
+    position: fixed !important;
+}
+
+.el-loading-in-content {
+}
+
+.el-loading-mask.is-fullscreen {
+    position: fixed;
+}
+
+    .el-loading-mask.is-fullscreen .el-loading-spinner {
+        margin-top: -25px;
+    }
+
+        .el-loading-mask.is-fullscreen .el-loading-spinner .circular {
+            height: 50px;
+            width: 50px;
+        }
+
+.el-loading-spinner {
+    top: 50%;
+    margin-top: -21px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+    .el-loading-spinner .el-loading-text {
+        color: #409EFF;
+        margin: 3px 0;
+        font-size: 14px;
+    }
+
+    .el-loading-spinner .circular {
+        height: 42px;
+        width: 42px;
+        -webkit-animation: loading-rotate 2s linear infinite;
+        animation: loading-rotate 2s linear infinite;
+    }
+
+    .el-loading-spinner .path {
+        -webkit-animation: loading-dash 1.5s ease-in-out infinite;
+        animation: loading-dash 1.5s ease-in-out infinite;
+        stroke-dasharray: 90,150;
+        stroke-dashoffset: 0;
+        stroke-width: 2;
+        stroke: #409EFF;
+        stroke-linecap: round;
+    }
+
+    .el-loading-spinner i {
+        color: #409EFF;
+    }
+
+.el-loading-fade-enter, .el-loading-fade-leave-active {
+    opacity: 0;
+}
+
+
+
+
+.i-circle {
+    border: 5px solid #F1F1F1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    padding-top: 15px;
+    margin-bottom: 7px;
+}
+
+    .i-circle i {
+        font-size: 34px;
+        vertical-align: middle;
+        color: #666;
+    }
+
+    .i-circle.white i {
+        color: #fff;
+    }
+
+    .i-circle.primary i {
+        color: #7761a7;
+    }
+
+    .i-circle.success i {
+        color: #19b698;
+    }
+
+    .i-circle.info i {
+        color: #4aa3df;
+    }
+
+    .i-circle.warning i {
+        color: #f16e3f;
+    }
+
+    .i-circle.danger i {
+        color: #ea6153;
+    }
+
+    .i-circle.prusia i {
+        color: #3d566d;
+    }
+
+    .i-circle.dark i {
+        color: #23262b;
+    }
+
+
+
+
+.el-loading-parent--relative {
+    position: relative !important;
+}
+
+.el-loading-parent--hidden {
+    overflow: hidden !important;
+}
+
+
+.el-loading-fade-enter, .el-loading-fade-leave-active {
+    opacity: 0;
+}
+
+@-webkit-keyframes loading-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loading-dash {
+    0% {
+        stroke-dasharray: 1,200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90,150;
+        stroke-dashoffset: -40px;
+    }
+
+    100% {
+        stroke-dasharray: 90,150;
+        stroke-dashoffset: -120px;
+    }
+}
+
+@keyframes loading-dash {
+    0% {
+        stroke-dasharray: 1,200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90,150;
+        stroke-dashoffset: -40px;
+    }
+
+    100% {
+        stroke-dasharray: 90,150;
+        stroke-dashoffset: -120px;
+    }
+}
+
+.modal-confirm {
+    max-width: 500px;
+}
+
+
+
+.modal-size-2 .modal-dialog {
+    width: 60%;
+}
+
+.modal-size-3 .modal-dialog {
+    width: 80%;
+}
+
+.modal-size-4 .modal-dialog {
+    width: 95%;
+}
+
+/* PAGING */
+.pagination > li > a.page-link,
+.pagination > li > span {
+    border: none;
+    height: 30px;
+    min-width: 30px;
+    background-color: #FFFFFF !important;
+    border-radius: 5px;
+    color: #898989;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 5px;
+}
+
+.pagination > li.active > a.page-link {
+    background-color: #4D96FF !important;
+    color: white;
+}
+
+.pagination .page-input {
+}
+
+.pagination .number {
+    color: #23527c;
+    background-color: #f1f1f1;
+    border-color: #ddd;
+}
+
+.pagination .page-input input {
+    border: 0px;
+    width: 52px;
+    text-align: center;
+    height: 32px;
+}
+
+.pagination .page-input select {
+    border: 0px;
+    width: 52px;
+    text-align: center;
+    height: 32px;
+}
+
+.pagination .page-input span {
+    padding: 0px;
+    margin: 0px;
+}
+
+.pagination .page-item {
+    cursor: pointer;
+}
+
+.pagination .page-label {
+    color: #172B4D;
+    padding: 5px;
+}
+
+    .pagination .page-label b {
+        margin-top: 6px;
+        display: -webkit-inline-box;
+    }
+
+
+select::-ms-expand {
+    color: #007bff;
+    border: solid 1px #ddd;
+}
+
+select::-ms-fill {
+    border: solid 1px #ddd;
+}
+
+select option {
+    border: solid 1px #ddd;
+}
+
+.show-date-button {
+    font-family: 'themify';
+    cursor: pointer;
+}
+
+    .show-date-button:after {
+        content: "\e6b6";
+    }
+
+/* Nofication */
+[data-notify="container"][class*="alert-codecamp-"] {
+    border: none !important;
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-left-width: 15px !important;
+    border-left-color: rgb(255, 240, 106) !important;
+    border-left-style: solid !important;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.3);
+    font-family: Roboto, serif;
+    letter-spacing: 1px;
+}
+
+    [data-notify="container"][class*="alert-codecamp-"] > [data-notify="title"] {
+        color: rgb(80, 80, 57);
+        display: block;
+        font-weight: 700;
+    }
+
+    [data-notify="container"][class*="alert-codecamp-"] > [data-notify="message"] {
+        font-weight: 400;
+        color: #444;
+    }
+
+[data-notify="container"].alert-codecamp-info {
+    border-left-color: #4CAF50 !important;
+}
+
+    [data-notify="container"].alert-codecamp-info > [data-notify="message"] {
+        color: #4CAF50 !important;
+    }
+
+[data-notify="container"].alert-codecamp-danger {
+    border-left-color: rgb(255, 103, 76) !important;
+}
+
+    [data-notify="container"].alert-codecamp-danger > [data-notify="message"] {
+        color: rgb(255, 103, 76) !important;
+    }
+
+[data-notify="container"].alert-codecamp-warning {
+    border-left-color: #FFC107 !important;
+}
+
+[data-notify="container"].alert-codecamp-success {
+    border-left-color: #03a9f4 !important;
+}
+
+    [data-notify="container"].alert-codecamp-success > [data-notify="message"] {
+        color: rgb(255, 103, 76);
+    }
+
+a.standard-button,
+div.standard-button,
+button.standard-button,
+a.btn.standard-button,
+div.btn.standard-button,
+button.btn.standard-button {
+    background-color: #4D96FF;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    min-width: 118px;
+    line-height: 1.7em;
+    position: relative;
+}
+
+    a.standard-button:hover,
+    div.standard-button:hover,
+    button.standard-button:hover,
+    a.standard-button:focus,
+    div.standard-button:focus,
+    button.standard-button:focus,
+    a.btn.standard-button:hover,
+    div.btn.standard-button:hover,
+    button.btn.standard-button:hover,
+    a.btn.standard-button:focus,
+    div.btn.standard-button:focus,
+    button.btn.standard-button:focus {
+        color: #4D96FF;
+        background: white;
+        border: 1px solid #4D96FF;
+    }
+
+a.create.standard-button,
+div.create.standard-button,
+button.create.standard-button,
+a.btn.create.standard-button,
+div.btn.create.standard-button,
+button.btn.create.standard-button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+    a.create.standard-button::before,
+    div.create.standard-button::before,
+    button.create.standard-button::before,
+    a.btn.create.standard-button::before,
+    div.btn.create.standard-button::before,
+    button.btn.create.standard-button::before {
+        content: '+';
+        position: absolute;
+        transform: translateX(-100%) translateX(-5px) scale3d(1.3,1.3,1);
+    }
