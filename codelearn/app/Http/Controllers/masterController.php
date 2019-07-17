@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 
 class masterController extends Controller
 {
-    public function master()
+    public function mainPage()
     {
         return view('backLading.index');
+    }
+    public function learnPage()
+    {
+        return view('backLading.learn');
     }
 }

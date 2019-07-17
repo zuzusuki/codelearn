@@ -1,7 +1,7 @@
 {{-- HEADER --}}
     <div class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{!!url('/')!!}">
             <img class="logo" src="https://codelearn.io/Themes/TheCodeCamppro/assets/code-learn/logo-codelearn.svg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav menu">
-            <a class="nav-item nav-link" href="#">Học Tập <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="{!!url('/hoc-tap')!!}">Học Tập <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Luyện Tập</a>
             <a class="nav-item nav-link" href="#">Thi Đấu</a>
             <a class="nav-item nav-link" href="#">Thảo Luận</a>

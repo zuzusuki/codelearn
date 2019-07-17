@@ -12,9 +12,16 @@
 */
 
 Route::get(
-    '/master',
+    '/',
     [
         'as' => 'trang-chu',
-        'uses' => 'masterController@master',
+        'uses' => 'masterController@mainPage',
+    ]
+);
+Route::get(
+    '/hoc-tap',
+    [
+        'as' => 'hoc-tap',
+        'uses' => 'masterController@learnPage',
     ]
 );
