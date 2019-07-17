@@ -1,0 +1,86 @@
+.header {
+    max-width: 100%;
+
+
+    a.nav-item.nav-link {
+        color: white;
+    }
+
+    .logo {
+        height: 50px;
+        margin-left: 30px;
+    }
+
+    .menu {
+        a {
+            margin-left: 20px;
+        }
+    }
+
+    .envn {
+        padding-right: 5px;
+
+        .vn {
+            margin-top: 3px;
+            margin-bottom: 5px;
+        }
+
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .notification {
+        padding-right: 5px;
+
+        i {
+            color: white;
+            font-size: 17px;
+        }
+
+        a.dropdown-item {
+            width: 430px;
+        }
+    }
+
+    .info {
+        padding-right: 5px;
+
+        i {
+            font-size: 18px;
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+    }
+
+    .user {
+        padding-right: 30px;
+
+        .dropdown-toggle {
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+
+            i {
+                font-size: 20px;
+                color: white;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
+
+a#navbarDropdownMenuLink {
+    color: white;
+}
