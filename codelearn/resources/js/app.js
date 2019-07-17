@@ -1,13 +1,6 @@
-import Vue from 'vue'
-import Landing from './components/header.vue'
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import './jsLanding/scripts/anchor.min4308.js'
 
-Vue.use(ElementUI)
-
-const app = new Vue({
-    el: '#app',
-    components: {
-        Landing,
-    }
-});
+import './jsLanding/scripts/landing-page03f5.js'
+import './jsLanding/scripts/moment-with-locales.minf29f.js'
+import './jsLanding/scripts/slick.min061c.js'
+import './jsLanding/scripts/wow.min0da8.js'

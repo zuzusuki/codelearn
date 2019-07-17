@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('lading/index');
 });
+Route::Get('/landing',function(){
+    return view('landing');
+});
