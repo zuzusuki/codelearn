@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('lading/index');
-});
+Route::get(
+    '/master',
+    [
+        'as' => 'trang-chu',
+        'uses' => 'masterController@master',
+    ]
+);
