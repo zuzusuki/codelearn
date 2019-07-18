@@ -1,17 +1,6 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+import './jsLanding/scripts/anchor.min4308.js'
 
-require('./bootstrap');
-
-import Vue from 'vue';
-import LandingHeader from './components/header.vue'
-
-const app = new Vue({
-    el: '#app',
-    components: {
-        LandingHeader,
-    },
-});
+import './jsLanding/scripts/landing-page03f5.js'
+import './jsLanding/scripts/moment-with-locales.minf29f.js'
+import './jsLanding/scripts/slick.min061c.js'
+import './jsLanding/scripts/wow.min0da8.js'
