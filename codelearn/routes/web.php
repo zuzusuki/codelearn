@@ -11,19 +11,13 @@
 |
 */
 
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('lading/index');
-});
-Route::Get('/landing',function(){
-    return view('landing');
-});
-=======
+
+
 Route::get(
-    '/',
+    '/back',
     [
-        'as' => 'trang-chu',
-        'uses' => 'masterController@mainPage',
+        'as' => 'trang-chu-back',
+        'uses' => 'masterController@mainPageBack',
     ]
 );
 Route::get(
@@ -33,4 +27,11 @@ Route::get(
         'uses' => 'masterController@learnPage',
     ]
 );
->>>>>>> 3565674a354e2d70624473b2e3ae4512c4bd4771
+
+Route::get(
+    '/',
+    [
+        'as' => 'trang-chu-out',
+        'uses' => 'masterController@mainPageFront',
+    ]
+);

@@ -481,27 +481,29 @@
                     </div>
                     <p class="label-or text-center">OR</p>
                     <div class="wrap-btn">
-                        <button class="btn btn-primary"
-                            onclick="window.location.replace('https://oauth.codelearn.io/Home/SignIn')">
+                        <a href="{!!url('/back')!!}">
+                        <button class="btn btn-primary">
                             <i class="fa fa-windows" style="color: black;"></i>
                             <span>Sign in with Microsoft</span>
-                        </button>
+                        </button></a>
+                        
                     </div>
 
 
                     <div class="wrap-btn">
-                        <button class="btn btn-primary" onclick="facebookSignIn()">
+                        <a href="{!!url('/back')!!}"><button class="btn btn-primary" onclick="facebookSignIn()">
                             <i class="fa fa-facebook-square" style="color: black;"></i>
                             <span>Sign in with Facebook</span>
-                        </button>
+                        </button></a>
                     </div>
 
 
                     <div class="wrap-btn">
-                         <button class="btn btn-primary" id="googleSignIn">
+                         <a href="{!!url('/back')!!}">
+                        <button class="btn btn-primary" id="googleSignIn">
                             <i class="fa fa-google"></i>
                             <span>Sign in with Google</span>
-                        </button>
+                        </button></a>
                     
                     </div>
 

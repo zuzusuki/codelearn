@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class masterController extends Controller
 {
-    public function mainPage()
+    public function mainPageFront()
+    {
+        return view('Landing');
+    }
+    public function mainPageBack()
     {
         return view('backLading.index');
     }
