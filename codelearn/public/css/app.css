@@ -10644,12 +10644,6 @@ a.text-dark:focus {
   }
 }
 
-<<<<<<< HEAD
-=======
-body {
-  color: red;
-}
-
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -14806,14 +14800,14 @@ a#navbarDropdownMenuLink {
   color: white;
 }
 
-.main {
+.container {
   max-width: 100%;
 }
 
-.main .ui-blocked {
+.container .ui-blocked {
+  padding: 0;
   max-width: 100%;
   margin-top: 30px;
-  padding: 0;
   border-radius: 3px;
   background-color: #FFFFFF;
   font-family: Roboto;
@@ -14822,14 +14816,14 @@ a#navbarDropdownMenuLink {
   margin-bottom: 32px;
 }
 
-.main .ui-blocked__banner img {
+.container .ui-blocked__banner img {
   max-width: 100%;
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.main .ui-blocked__body-title {
+.container .ui-blocked__body-title {
   margin-top: 15px;
   color: #333333;
   font-size: 22px;
@@ -14838,7 +14832,7 @@ a#navbarDropdownMenuLink {
   text-decoration: none;
 }
 
-.main .ui-blocked__body-description {
+.container .ui-blocked__body-description {
   color: #898989;
   font-size: 14px;
   text-align: center;
@@ -14850,38 +14844,37 @@ a#navbarDropdownMenuLink {
   margin-top: 8px;
 }
 
-.main .ui-blocked__bottom {
+.container .ui-blocked__bottom {
   max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.main .ui-blocked__bottom-resUser {
+.container .ui-blocked__bottom-resUser {
   margin-top: 70px;
   margin-left: 20px;
 }
 
-.main .ui-blocked__bottom-countdown {
+.container .ui-blocked__bottom-countdown {
   margin-top: 20px;
 }
 
-.main .ui-blocked__bottom-countdown button {
+.container .ui-blocked__bottom-countdown button {
   min-width: 175px;
   font-weight: 500;
 }
 
-.main .ui-blocked__bottom-top1-user {
+.container .ui-blocked__bottom-top1-user {
   margin-top: 70px;
   margin-right: 20px;
 }
 
-.main .col-md-6 {
-  padding-right: 0px;
-  padding-left: 0px;
+.container .col-md-6 {
+  padding: 0;
 }
 
-.main .col-md-6 .ui-block {
-  margin-right: 15px;
+.container .col-md-6 .ui-block {
+  margin-right: 30px;
   max-width: 100%;
   border-radius: 3px;
   background-color: #FFFFFF;
@@ -14894,57 +14887,58 @@ a#navbarDropdownMenuLink {
   padding: 20px;
 }
 
-.main .col-md-6 .ui-block .ui-block-title {
+.container .col-md-6 .ui-block .ui-block-title {
   font-size: 16px;
-  font-weight: 560;
+  font-weight: 500;
 }
 
-.main .col-md-6 .ui-block .source-icon {
+.container .col-md-6 .ui-block .source-icon {
   text-align: center;
 }
 
-.main .col-md-6 .ui-block .source-name {
+.container .col-md-6 .ui-block .source-name {
   text-align: center;
 }
 
-.main .col-md-6 .ui-block .source-name a {
+.container .col-md-6 .ui-block .source-name a {
   color: #4D96FF;
   font-size: 22px;
   font-weight: 600;
   text-decoration: none;
 }
 
-.main .col-md-6 .ui-block .source-title {
+.container .col-md-6 .ui-block .source-title {
   text-align: center;
 }
 
-.main .col-md-6 .ui-block-footer {
+.container .col-md-6 .ui-block-footer {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-top: 35px;
 }
 
-.main .col-md-6 .ui-block-footer .text {
+.container .col-md-6 .ui-block-footer .text {
   color: gray;
 }
 
-.main .col-md-6 .ui-block-footer .complete-task span {
+.container .col-md-6 .ui-block-footer .complete-task span {
   color: #7BC043;
   font-size: 26px;
 }
 
-.main .col-md-6 .ui-block-footer .do-task span {
+.container .col-md-6 .ui-block-footer .do-task span {
   color: #F69046;
   font-size: 26px;
 }
 
-.main .col-md-6 .ui-block-footer .total-task span {
+.container .col-md-6 .ui-block-footer .total-task span {
   color: #4D96FF;
   font-size: 26px;
 }
 
-.main .col-md-6 .ui-block2 {
+.container .col-md-6 .ui-block2 {
+  padding-left: 30px;
   max-width: 100%;
   border-radius: 3px;
   background-color: #FFFFFF;
@@ -14955,6 +14949,201 @@ a#navbarDropdownMenuLink {
   flex-direction: column;
   align-items: stretch;
   padding: 20px;
+}
+
+.container .col-md-6 .ui-block2-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container .col-md-6 .ui-block2-calender {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(7, 1fr);
+  grid-gap: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.container .col-md-6 .ui-block2-calender .day {
+  color: gray;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.container .col-md-6 .ui-block2-calender .item {
+  width: 33px;
+  height: 20px;
+  border: 1px solid #ebf1fb;
+  border-radius: 5px;
+  background-color: #ebf1fb;
+}
+
+.container .col-md-6 .ui-block2 .level {
+  padding-top: 15px;
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(7, 1fr);
+  grid-gap: 1em;
+  width: 200px;
+}
+
+.container .col-md-6 .ui-block2 .level .item {
+  width: 15px;
+  height: 15px;
+  background-color: #ebf1fb;
+  border: 1px solid #ebf1fb;
+}
+
+.container .col-md-6 .ui-block2 .level .item1 {
+  width: 15px;
+  height: 15px;
+  background-color: #b6d5ff;
+  border: 1px solid #b6d5ff;
+  border-radius: 3px;
+}
+
+.container .col-md-6 .ui-block2 .level .item2 {
+  width: 15px;
+  height: 15px;
+  background-color: #4d95ff;
+  border: 1px solid #4d95ff;
+  border-radius: 3px;
+}
+
+.container .col-md-6 .ui-block2 .level .item3 {
+  width: 15px;
+  height: 15px;
+  background-color: #3569b2;
+  border: 1px solid #3569b2;
+  border-radius: 3px;
+}
+
+.container .top-user {
+  margin-top: 30px;
+  width: 350px;
+  height: 724px;
+  background-color: #2e5a99;
+  position: relative;
+  padding-top: 67px;
+  box-shadow: 0 2px 10px 0 #a1a1a1;
+}
+
+.container .top-user img {
+  width: 105px;
+  height: 109px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 109px;
+  width: 105px;
+}
+
+.container .top-user .challenge-title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.container .top-user #challenge-desc {
+  margin: auto;
+  text-align: center;
+  width: 306px;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.container .top-user .challenge-task {
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  margin: 0 30px 0 30px;
+}
+
+.container .top-user .challenge-task-title {
+  padding-top: 30px;
+}
+
+.container .top-user .challenge-task-title__1 {
+  color: #333 !important;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.container .top-user .challenge-task-title__2 {
+  background-color: #7BC03C;
+  font-weight: normal;
+  padding: 5px 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container .top-user .challenge-task-tag {
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 0 90px 0 90px;
+  border: 1px solid #898989 !important;
+  border-radius: 3px;
+  color: #898989;
+  background-color: transparent;
+}
+
+.container .top-user .challenge-task-img img {
+  width: 47.5px !important;
+  height: 45.7px !important;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.container .top-user .challenge-task-hot button {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container .top-user .challenge-task-info {
+  border-top: 1px solid #ccc;
+  color: #337ab7;
+  background-color: #daeaff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 0 20px;
+}
+
+.container .top-user .challenge-task-info div {
+  display: flex;
+}
+
+.container .top-user .challenge-task-info img {
+  width: 16px;
+  height: 22px;
+}
+
+.container .top-user .task-level {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 30px;
+  padding-top: 30px;
+}
+
+.container .top-user .task-level span {
+  font-size: 13px;
+}
+
+.container .top-user .task-level div {
+  font-size: 16px;
 }
 
 div#clockdiv {
@@ -14980,4 +15169,3 @@ div#clockdiv {
   margin-top: 20px;
 }
 
->>>>>>> 22dd06c74a2a57520c24bd9dbcf35e795ca5b6e7

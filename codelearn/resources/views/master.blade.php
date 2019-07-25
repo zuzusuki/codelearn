@@ -59,7 +59,7 @@
         }
 
         /* e.g. December 31 2015 23:59:59 */
-        var deadline = 'July 20 2019 21:00:00';
+        var deadline = 'July 20 2020 21:00:00';
 
         /* init clock if deadline hasn't passed */
         if (new Date(deadline) > new Date()) {

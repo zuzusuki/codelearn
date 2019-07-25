@@ -1,8 +1,10 @@
 @extends('master')
 @section('main')
+
 {{-- MAIN --}}
     <div class="main">
-        <div class="container-fluid" id="header-fixed">
+        <div class="container">
+            <div class="container-fluid" id="header-fixed">
             <div class="row">
             <div class="col-md-8">
                 <div class="container-fluid" id="header-fixed">
@@ -57,7 +59,7 @@
                 </div>
                 <div class="container-fluid" id="header-fixed">
                     <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 learn">
                         <div class="ui-block ">
                             <div class="ui-block-title">Học tập</div>
                             <div class="ui-block-body">
@@ -90,9 +92,48 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="ui-block ">
-                            <div class="ui-block-title">Hoạt động của bạn</div>
+                    <div class="col-md-6 hoatdong">
+                        <div class="ui-block2 ">
+                            <div class="ui-block2-title">Hoạt động của bạn</div>
+                            <div class="ui-block2-calender">
+                                <div class="day">Mon</div>
+                                <div class="day">Tue</div>
+                                <div class="day">Wed</div>
+                                <div class="day">Thu</div>
+                                <div class="day">Fri</div>
+                                <div class="day">Sat</div>
+                                <div class="day">Sun</div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                            </div>
+                            <div class="level">
+                                <div>Level</div>
+                                <div class="item"></div>
+                                <div class="item1"></div>
+                                <div class="item2"></div>
+                                <div class="item3"></div>
+                            </div>
                         </div>
                     </div>
                     </div>
@@ -102,14 +143,57 @@
             <div class="col-md-4">
                 <div class="container-fluid" id="header-fixed">
                     <div class="row">
-                    
+                        <div class="top-user">
+                            <img  src="https://codelearn.io/CodeCamp/CodeCamp/Styles/images/ChallengesIcon.svg">
+                            <div class="challenge-title">Luyện tập mỗi ngày</div>
+                            <div id="challenge-desc">
+                                Bài tập có nhiều lượt nộp nhất trong 4 ngày gần đây.
+                            </div>
+                            <div class="challenge-task">
+                                <div class="challenge-task-title">
+                                    <span class="challenge-task-title__1">isPowerOfFour</span> 
+                                    <span class="challenge-task-title__2">Đơn giản</span>
+                                </div>
+                                <div class="challenge-task-tag">Bit Manipulation</div>
+                                <div class="challenge-task-img">
+                                    <img src="https://codelearn.io/CodeCamp/CodeCamp/Upload/Avatar/81fc74f9b8d4439e97b1d6e1641f417d.jpg" alt="">
+                                    <div>1231231</div>
+                                </div>
+                                <div class="challenge-task-hot"><button class="btn btn-danger">BÀI NỔI BẬT</button> </div>
+                                <div class="challenge-task-info">
+                                    <div><img src="https://codelearn.io/Themes/TheCodeCamppro/assets/code-learn/user-challenges.svg?v=11" alt=""> 755/783</div>
+                                    
+                                    <div><img src="https://codelearn.io/Themes/TheCodeCamppro/assets/code-learn/comment.svg?v=11" alt=""> 14</div>
+                                    
+                                    <div><img src="https://codelearn.io/Themes/TheCodeCamppro/assets/code-learn/task-point.svg?v=11" alt=""> 120</div>
+                                </div>
+                            </div>
+                            <div class="task-level">
+                                    <div class="task-level-easy">
+                                        <span>Đơn giản</span>
+                                        <div>1/128</div>
+                                    </div>
+                                    <div class="task-level-normal">
+                                        <span>Trung bình</span>
+                                        <div>1/128</div>
+                                    </div>
+                                    <div class="task-level-hard">
+                                        <span>Phức tạp</span>
+                                        <div>1/128</div>
+                                    </div>
+                                </div>
+                        </div>
+                        
                     </div>
                 </div>
                 
             </div>
         </div>
         </div>
+        </div>
+        
         
     </div>
     {{-- MAIN --}}
+    
 @endsection
